@@ -11,7 +11,7 @@ This project predicts stock market movements based on sentiment analysis from so
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/project-name.git
+   git clone (https://github.com/Pradeep18102003/Stock_movement_prediction_using_social_media_discussion.git)
    ```
 2. Install required dependencies:
    ```bash
