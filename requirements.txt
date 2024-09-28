@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+ipykernel
+tensorflow
+torch
+nltk
+seaborn
+yfinance
+praw
+sentence-transformers
+vaderSentiment
