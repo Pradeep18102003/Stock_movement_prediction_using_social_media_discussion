@@ -25,8 +25,24 @@ This project predicts stock market movements based on sentiment analysis from so
    ## Project Structure
 - `data/`: Contains datasets
 - `notebooks/`: Jupyter notebooks for analysis
-- `requirements.txt`: Required Libraries need to be installed before running the code
+- `requirements.txt`: Dependencies
 
    ## How to run the code
-- 
+- First you need to install the libraries in requirements.txt file
+- In Notebooks folder there will four notebooks you need to run the notebooks in the same order
+     - First Notebook is Data_Scrapping_from_Reddit this notebook has the code to scrape data from reddit and will give a file Reddit_data.csv that will be saved in Data folder
+     - Second Notebook which Stock_Movement_data this has the code to scrape the stock movement data of **S&P500** and give a csv file Stock_Movement.csv
+     - Third Notebook has the baseline model
+     - Fourth Notebook is the model codel it will create CNN models based on the data we got above and gives the accuracy
+
+
+   ## Results:
+
+  - Baseline model accuracy: 53.5%
+  - CNN model without Sentiment Scores accuracies
+    - Train set: 72.97%
+    - Test set: 66.44%
+  - CNN model with Sentiment Scores accuracies
+    - Train set: 76.18%
+    - Test set: 65.77%
 
