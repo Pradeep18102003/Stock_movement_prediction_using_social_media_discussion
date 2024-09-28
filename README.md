@@ -17,10 +17,6 @@ This project predicts stock market movements based on sentiment analysis from so
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up API keys (if required):
-   ```
-   export API_KEY='your_api_key'
-   ```
 
    ## Project Structure
 - `data/`: Contains datasets
