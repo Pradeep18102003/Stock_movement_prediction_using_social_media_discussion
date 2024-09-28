@@ -4,9 +4,8 @@ This project predicts stock market movements based on sentiment analysis from so
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Models](#models)
+- [How to run the code](#How-to-run-the-code)
 - [Results](#results)
 
 ## Installation
@@ -22,3 +21,12 @@ This project predicts stock market movements based on sentiment analysis from so
    ```
    export API_KEY='your_api_key'
    ```
+
+   ## Project Structure
+- `data/`: Contains datasets
+- `notebooks/`: Jupyter notebooks for analysis
+- `requirements.txt`: Required Libraries need to be installed before running the code
+
+   ## How to run the code
+- 
+
