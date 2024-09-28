@@ -10,3 +10,4 @@ yfinance
 praw
 sentence-transformers
 vaderSentiment
+python-dotenv
