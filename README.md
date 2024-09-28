@@ -26,6 +26,7 @@ This project predicts stock market movements based on sentiment analysis from so
 
    ## How to run the code
 - First you need to install the libraries in requirements.txt file
+- Then create a Reddit app and get the API keys required to run the code
 - In Notebooks folder there will four notebooks you need to run the notebooks in the same order
      - First Notebook is Data_Scrapping_from_Reddit this notebook has the code to scrape data from reddit and will give a file Reddit_data.csv that will be saved in Data folder
      - Second Notebook which Stock_Movement_data this has the code to scrape the stock movement data of **S&P500** and give a csv file Stock_Movement.csv
