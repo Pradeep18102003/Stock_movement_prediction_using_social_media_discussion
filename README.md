@@ -1,13 +1,13 @@
 # Stock Movement Prediction using Social Media Sentiment
 
 This project predicts stock market movements based on sentiment analysis from social media discussions using Reddit. It combines BERT embeddings, VADER sentiment analysis, and CNN models to achieve predictions.
-
+---
 ## Table of Contents
 - [Installation](#installation)
 - [Project Structure](#project-structure)
 - [How to run the code](#How-to-run-the-code)
 - [Results](#results)
-
+---
 ## Installation
 1. Clone the repository:
    ```bash
@@ -23,8 +23,8 @@ This project predicts stock market movements based on sentiment analysis from so
 - `data/`: Contains datasets
 - `notebooks/`: Jupyter notebooks for analysis
 - `requirements.txt`: Dependencies
-
-   ## How to run the code
+---
+## How to run the code
 - First you need to install the libraries in requirements.txt file
 - Then create a Reddit app and get the API keys required to run the code
 - In Notebooks folder there will four notebooks you need to run the notebooks in the same order
@@ -32,9 +32,8 @@ This project predicts stock market movements based on sentiment analysis from so
      - Second Notebook which Stock_Movement_data this has the code to scrape the stock movement data of **S&P500** and give a csv file Stock_Movement.csv
      - Third Notebook has the baseline model
      - Fourth Notebook is the model codel it will create CNN models based on the data we got above and gives the accuracy
-
-
-   ## Results:
+---
+## Results:
 
   - Baseline model accuracy: 53.5%
   - CNN model without Sentiment Scores accuracies
@@ -43,4 +42,7 @@ This project predicts stock market movements based on sentiment analysis from so
   - CNN model with Sentiment Scores accuracies
     - Train set: 76.18%
     - Test set: 65.77%
+
+## 📧 Contact
+   - If you have any questions or feedback, feel free to reach out via email: pradeep18kumar10@gmail.com linkedin: https://www.linkedin.com/in/pradeep-kumar-bba090320/.
 
